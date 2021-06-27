@@ -1,0 +1,45 @@
+Git:
+it's a way how we can track our changes/additionals etc
+
+2 kinds of repo:
+	1.local(in our computer)
+	2.remote
+
+Commit --> allows us to save all changes in the local repo
+Push --> allows us to send from local to remote, so changes are saved in remote also
+
+How to use GitHub desktop:
+1.create local repo:
+	file -> new repo -> NAME it(ex. hello)(it will be saved in folder GitHub -> in folder with the same NAME(folder - hello))
+
+2.create .txt file repo:
+	"open in Sublime text" -> write smthg -> save(windows ctrl+s, mac idk sorry) -> locate where to save(choose right folder as in paragraph 1) -> file name/save as -> NAME.txt (hello.txt)
+
+3.commit to remote:
+	on  your git desktop you will see all changes in "changes" -> commit it for saving in our local repo(add name or description and press "commit")
+
+4.for making repi remote:
+	"publish repo"/"push repo" -> it will be pushed on GitHub
+
+5.now you can press "view on GitHub" and will see your file online
+
+6.how to create new file:
+	creaate new file in Sublime, write your text there -> save .txt -> commit again -> push again
+
+7.for changing your file visibility in GitHub(online):
+	settings -> scroll till very end -> "change repo visibility" -> choose PRIVATE/PUBLIC/WHATEVER -> confirm it
+
+8.fetch:
+	fetch -> "push commits to the original remote" -> push origin -> this file suppose to gone from your local folder(from our hello folder on desktop) but stays on remote
+
+9.how to delete file from remote:
+	on GitHub -> choose file -> press on trashcan
+
+10. .gitignore file:
+	git desktop, in the left corner: repository -> repo settings -> ignored files -> write here your ignore files names(ex. hello.txt) -> save -> commit and push
+	why we need ignore:
+		1) if we have some settings files which tracks your work -> you don't want that everybody will see that files because its not neccessary -> so u just put it in .gitignore
+		2) if in your team you're working with different version on your tool(intelJ 8 and 11 etc), it can be conflict between this difference version of the same tool if u will not ignore settings files
+
+11.how to clone from remote:
+	in your GitHub choose folder/file for clonning -> "code" -> clone/ open with GitHub dsktop -> clone --> we wi;; have this project on our local
